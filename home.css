@@ -1,10 +1,30 @@
 body{
-    background-color:rgba(235, 235, 235, 0.952);
+    background-color:white;
 }
 .gokaruna{
   position: relative;
-  background: url(bkgnd.jpg);
-  min-height: 87vh;
+  background: url(b33.jpg);
+    min-height: 97vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+.go2karuna{
+  position: relative;
+  background: url(i3333333333.jpg);
+    min-height: 97vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+.go3karuna{
+  position: relative;
+  background: url(i4\ \(1\).jpg);
+    min-height: 97vh;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -14,10 +34,212 @@ body{
 .nav-item{
     font-size: 20px;
 }
+
+
+
 #box{
     margin-top: -90px;
     border-radius: 0%;
-    padding: 45px 55px 55px 55px;
+    padding: 50px 55px 55px 55px;
     padding-bottom: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #23272b;
+}
+.bg-dark1{
+    background-color: #000000;
+}
+
+
+.page-footer a{
+    color: #d5dadb;
+    text-decoration: inherit;
+
+}
+
+.gallery-item {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+}
+
+.page-footer li,h6 {
+    color: #d5dadb;
+}
+p[class="mt-2"],div[class="footer-copyright text-center py-3"]{
+    color:#d5dadb;}
+
+.gokaruna-v2{
+  position: inherit;
+  background: url(an.jpg);
+  min-height: 70vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.gokaruna-v3{
+    position:inherit;
+    background: url(b17.jpg);
+    min-height: 45vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+
+#slide {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-right: 60px;
+}
+
+#imgg {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+#imgg img {
+  margin-top: 8px;
+  flex: 50%;
+  vertical-align: middle;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn-xyz {
+  color: black;
+  background-color: white;
+  border-color: white;
+  border-radius: 0;
+}
+.btn-xyz:hover {
+  color: #fff;
+  background-color: black;
+  border-color:black;
+}
+.btn-outline-abc {
+  color: white;
+  border-radius: 0;
+  border-color: white;
+}
+.btn-outline-abc:hover {
+  color: #fff;
+  background-color: black;
+  border-color:black;
+}
+
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column1 {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column1 img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column1 {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column1 {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+.card {
+    position: relative;
+    border: solid 1px #212121;
+    padding: 45px 50px 25px 60px;
+    margin-top: -90px;
+    background-color: #212121;
+    border-radius: 10px;
+    color: #fff
+}
+
+.post-txt {
+  text-align: center;
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-top: 15px;
+}
+
+.quote-img {
+    position: absolute;
+    top: 135px;
+    left: 28px;
+    width: 30px;
+    height: 30px
+}
+.quote-img2 {
+    position: absolute;
+    bottom: 35px;
+    right: 120px;
+    width: 30px;
+    height: 30px
+}
+@media screen and (max-width: 1200px) {
+  .quote-img2{
+    right: 40px;
+  }
+  .quote-img{
+    left: 40px;
+  }
+}
+
+
+.nice-img {
+    width: 20px;
+    height: 25px;
+    margin-bottom: 7px
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 20px solid #212121;
+    margin-left: 85px
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}
+
+.profile-pic {
+    position: absolute;
+    width: 120px;
+    height: 120px;margin-top: 10px;
+    margin-left: -57px;
+    
+}
+
+.profile-name {
+    position: absolute;
+    font-size: 22px;margin-top: 130px;
+    
+    color: #616161
 }
