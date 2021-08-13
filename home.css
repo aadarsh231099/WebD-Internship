@@ -3,7 +3,7 @@ body{
 }
 .gokaruna{
   position: relative;
-  background: url(b33.jpg);
+  background: url(images/b33.jpg);
     min-height: 97vh;
   background-size: cover;
   background-attachment: fixed;
@@ -13,7 +13,7 @@ body{
 }
 .go2karuna{
   position: relative;
-  background: url(i3333333333.jpg);
+  background: url(images/i3333333333.jpg);
     min-height: 97vh;
   background-size: cover;
   background-attachment: fixed;
@@ -23,7 +23,7 @@ body{
 }
 .go3karuna{
   position: relative;
-  background: url(i4\ \(1\).jpg);
+  background: url(images/i4\ \(1\).jpg);
     min-height: 97vh;
   background-size: cover;
   background-attachment: fixed;
@@ -71,8 +71,8 @@ p[class="mt-2"],div[class="footer-copyright text-center py-3"]{
 
 .gokaruna-v2{
   position: inherit;
-  background: url(an.jpg);
-  min-height: 70vh;
+  background: url(images/india.jpg);
+  min-height: 90vh;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -80,9 +80,10 @@ p[class="mt-2"],div[class="footer-copyright text-center py-3"]{
   display: flex;
 }
 
+
 .gokaruna-v3{
     position:inherit;
-    background: url(b17.jpg);
+    background: url(images/b17.jpg);
     min-height: 45vh;
     background-size: cover;
     background-attachment: fixed;
@@ -90,6 +91,7 @@ p[class="mt-2"],div[class="footer-copyright text-center py-3"]{
     background-repeat: no-repeat;
     display: flex;
 }
+
 
 
 #slide {
