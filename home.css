@@ -245,3 +245,33 @@ p[class="mt-2"],div[class="footer-copyright text-center py-3"]{
     
     color: #616161
 }
+@media  only screen and (max-width: 768px) {
+  .m1234{
+  margin: 5px 5px;
+    width: 390px;
+    height: auto;
+  }
+  .btn-outline-abc{
+    margin-bottom: 50px;
+  }
+  .quote-img{
+    
+    
+  }
+  .quote-img2{
+    right:40px;
+    bottom: 30px;
+  }
+  .navbar-toggler{
+    margin-top:-90px;
+    margin-bottom: 50px;
+    margin-right: -320px;
+  }
+  img[src="logo/mota.png"]{
+    width: 200px;
+    height: auto;
+    margin-right:-20px;
+    margin-bottom: 0;
+  }
+  
+}
